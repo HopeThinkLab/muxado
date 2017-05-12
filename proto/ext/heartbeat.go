@@ -16,7 +16,7 @@ import (
 
 const (
 	defaultHeartbeatInterval  = 3 * time.Second
-	defaultHeartbeatTolerance = 10 * time.Second
+	defaultHeartbeatTolerance = 60 * time.Second
 )
 
 type Heartbeat struct {

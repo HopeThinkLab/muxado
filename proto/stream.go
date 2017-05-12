@@ -13,7 +13,7 @@ import (
 
 var (
 	zeroTime         time.Time
-	resetRemoveDelay = 10 * time.Second
+	resetRemoveDelay = 30 * time.Second
 	closeError       = fmt.Errorf("Stream closed")
 )
 
